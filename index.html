@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Candide School – nurturing young minds through excellence in education, creativity, and character." />
+  <title>Candide School</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    🎓 Enrolment open for the 2026–2027 academic year!
+    <a href="#contact">Apply now →</a>
+  </div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="#" class="logo">
+        <div class="logo-icon" aria-hidden="true">🎓</div>
+        Candide <span>School</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about"        class="active">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary" style="padding:.5rem 1.2rem;">Enrol Now</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" aria-label="Welcome">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">Est. 1998 · Excellence in Education</div>
+        <h1>Shaping the <em>Leaders</em> of Tomorrow</h1>
+        <p>
+          At Candide School, we provide a nurturing, inspiring environment where every
+          student discovers their potential and develops the skills to thrive in a
+          rapidly changing world.
+        </p>
+        <div class="hero-buttons">
+          <a href="#programs" class="btn btn-primary">Explore Programs</a>
+          <a href="#about"    class="btn btn-secondary">Learn More</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>1,200+</strong><span>Students</span></div>
+          <div class="stat"><strong>85+</strong><span>Teachers</span></div>
+          <div class="stat"><strong>25</strong><span>Years of Excellence</span></div>
+          <div class="stat"><strong>98%</strong><span>Graduate Rate</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" aria-label="About Candide School">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-image">
+          <!-- Placeholder illustration using an SVG pattern when no real photo is available -->
+          <svg class="about-image-main" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Candide School building illustration">
+            <rect width="640" height="420" fill="#1a5276"/>
+            <!-- sky -->
+            <rect width="640" height="220" fill="#2e86c1"/>
+            <!-- ground -->
+            <rect y="300" width="640" height="120" fill="#27ae60" opacity=".6"/>
+            <!-- main building -->
+            <rect x="120" y="130" width="400" height="190" fill="#ecf0f1" rx="4"/>
+            <!-- roof -->
+            <polygon points="100,130 320,50 540,130" fill="#1a5276"/>
+            <!-- flag -->
+            <line x1="320" y1="50" x2="320" y2="20" stroke="#e74c3c" stroke-width="3"/>
+            <rect x="320" y="20" width="25" height="15" fill="#f39c12"/>
+            <!-- door -->
+            <rect x="285" y="245" width="70" height="75" fill="#1a5276" rx="3"/>
+            <circle cx="348" cy="283" r="4" fill="#f39c12"/>
+            <!-- windows -->
+            <rect x="145" y="165" width="70" height="55" fill="#85c1e9" rx="3"/>
+            <rect x="235" y="165" width="70" height="55" fill="#85c1e9" rx="3"/>
+            <rect x="335" y="165" width="70" height="55" fill="#85c1e9" rx="3"/>
+            <rect x="425" y="165" width="70" height="55" fill="#85c1e9" rx="3"/>
+            <!-- path -->
+            <polygon points="270,420 320,320 370,420" fill="#d5d8dc" opacity=".8"/>
+            <!-- trees -->
+            <rect x="60"  y="260" width="12" height="60" fill="#784212"/>
+            <ellipse cx="66"  cy="255" rx="28" ry="35" fill="#27ae60"/>
+            <rect x="560" y="260" width="12" height="60" fill="#784212"/>
+            <ellipse cx="566" cy="255" rx="28" ry="35" fill="#27ae60"/>
+            <!-- sun -->
+            <circle cx="560" cy="70" r="35" fill="#f39c12" opacity=".8"/>
+          </svg>
+
+          <div class="about-badge">
+            <strong>25+</strong>
+            <span>Years of Excellence</span>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <h2>A Community Built on Knowledge &amp; Values</h2>
+          <p>
+            Founded in 1998, Candide School has grown from a small neighbourhood
+            institution into one of the region's most respected educational establishments.
+            Our holistic approach balances rigorous academics with the arts, sports, and
+            social responsibility.
+          </p>
+          <p>
+            We believe every child deserves a personalised learning journey. Our
+            dedicated staff foster curiosity, critical thinking, and a love of
+            lifelong learning in a safe and welcoming campus.
+          </p>
+          <ul class="about-features">
+            <li>International curriculum aligned to modern standards</li>
+            <li>Small class sizes for personalised attention</li>
+            <li>State-of-the-art science and technology labs</li>
+            <li>Vibrant arts, music, and sports programmes</li>
+            <li>Active parent and community partnership</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROGRAMS ===================== -->
+  <section id="programs" aria-label="Academic programs">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Our Academic Programs</h2>
+        <p>Comprehensive education from early childhood through secondary school</p>
+      </div>
+
+      <div class="programs-grid">
+
+        <div class="program-card">
+          <div class="program-icon" style="background:#fef9e7;">🌱</div>
+          <h3>Early Childhood (Ages 3–5)</h3>
+          <p>Play-based learning that builds foundational literacy, numeracy, and social skills in a nurturing environment.</p>
+          <span class="program-tag">Pre-school &amp; Kindergarten</span>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon" style="background:#eaf4fb;">📚</div>
+          <h3>Primary School (Ages 6–11)</h3>
+          <p>A broad curriculum covering languages, mathematics, science, history, and the arts to spark curiosity.</p>
+          <span class="program-tag">Grades 1–6</span>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon" style="background:#eafaf1;">🔬</div>
+          <h3>Middle School (Ages 11–14)</h3>
+          <p>Subject specialisation alongside project-based learning, fostering independent thinking and collaboration.</p>
+          <span class="program-tag">Grades 7–9</span>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon" style="background:#fdf2f8;">🎓</div>
+          <h3>Secondary School (Ages 14–18)</h3>
+          <p>University-preparation track with advanced courses, career guidance, and international qualifications.</p>
+          <span class="program-tag">Grades 10–12</span>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon" style="background:#f4ecf7;">🎨</div>
+          <h3>Arts &amp; Creative Studies</h3>
+          <p>Music, visual arts, drama, and design programmes available across all school levels as core or elective subjects.</p>
+          <span class="program-tag">All Levels</span>
+        </div>
+
+        <div class="program-card">
+          <div class="program-icon" style="background:#fef5e7;">⚽</div>
+          <h3>Sports &amp; Physical Education</h3>
+          <p>Competitive and recreational sports including football, athletics, swimming, and basketball to promote well-being.</p>
+          <span class="program-tag">All Levels</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FACULTY ===================== -->
+  <section id="faculty" aria-label="Our teachers">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Meet Our Faculty</h2>
+        <p>Passionate educators committed to unlocking every student's potential</p>
+      </div>
+
+      <div class="faculty-grid">
+
+        <div class="faculty-card">
+          <div class="faculty-avatar" aria-hidden="true">👩‍🏫</div>
+          <h3>Dr. Amina Benali</h3>
+          <span>Head of Sciences</span>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar" aria-hidden="true">👨‍🏫</div>
+          <h3>Mr. Karim Hadj</h3>
+          <span>Mathematics Department</span>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar" aria-hidden="true">👩‍🏫</div>
+          <h3>Ms. Fatima Zohra</h3>
+          <span>Languages &amp; Literature</span>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar" aria-hidden="true">👨‍🏫</div>
+          <h3>Mr. Youcef Merabet</h3>
+          <span>History &amp; Social Studies</span>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar" aria-hidden="true">👩‍🎨</div>
+          <h3>Ms. Leila Djenadi</h3>
+          <span>Arts &amp; Music</span>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar" aria-hidden="true">👨‍💻</div>
+          <h3>Mr. Riad Bouzid</h3>
+          <span>Technology &amp; Computing</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EVENTS ===================== -->
+  <section id="events" aria-label="Upcoming events">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Upcoming Events</h2>
+        <p>Stay connected with school life and upcoming activities</p>
+      </div>
+
+      <div class="events-list">
+
+        <div class="event-item">
+          <div class="event-date"><strong>18</strong><span>Apr</span></div>
+          <div class="event-info">
+            <h3>Open Day – Visit &amp; Enrolment Tour</h3>
+            <p>Explore our campus, meet teachers and get all the information you need for the 2026–27 academic year.</p>
+            <span class="event-tag" style="background:#eaf4fb;color:#1a5276;">Open to Public</span>
+          </div>
+        </div>
+
+        <div class="event-item">
+          <div class="event-date"><strong>25</strong><span>Apr</span></div>
+          <div class="event-info">
+            <h3>Science Fair – Grade 7–9 Exhibition</h3>
+            <p>Students present their research projects in biology, chemistry, physics, and environmental science.</p>
+            <span class="event-tag" style="background:#eafaf1;color:#1e8449;">Students &amp; Parents</span>
+          </div>
+        </div>
+
+        <div class="event-item">
+          <div class="event-date"><strong>02</strong><span>May</span></div>
+          <div class="event-info">
+            <h3>Annual Sports Day</h3>
+            <p>A full day of athletics, team sports, and fun activities for all students from Kindergarten to Grade 12.</p>
+            <span class="event-tag" style="background:#fef9e7;color:#b7770d;">School-wide</span>
+          </div>
+        </div>
+
+        <div class="event-item">
+          <div class="event-date"><strong>15</strong><span>May</span></div>
+          <div class="event-info">
+            <h3>Parent–Teacher Conference</h3>
+            <p>Scheduled appointments for parents to discuss student progress and upcoming assessments with teachers.</p>
+            <span class="event-tag" style="background:#fdf2f8;color:#76448a;">Parents Only</span>
+          </div>
+        </div>
+
+        <div class="event-item">
+          <div class="event-date"><strong>20</strong><span>Jun</span></div>
+          <div class="event-info">
+            <h3>End-of-Year Graduation Ceremony</h3>
+            <p>Celebrating the achievements of our graduating class of 2026. All families are warmly invited.</p>
+            <span class="event-tag" style="background:#fef5e7;color:#d35400;">Ceremony</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section id="testimonials" aria-label="What parents say">
+    <div class="container">
+      <div class="section-heading">
+        <h2>What Our Community Says</h2>
+        <p>Hear from parents, alumni and students about their Candide experience</p>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <blockquote>
+            "Candide School transformed my daughter's relationship with learning. The teachers are
+            genuinely invested in each child's growth. We couldn't be happier."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-author-avatar" aria-hidden="true">👩</div>
+            <div class="testimonial-author-info">
+              <strong>Samira Akli</strong>
+              <span>Parent of a Grade 8 student</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <blockquote>
+            "The science and technology programme here is outstanding. I graduated from Candide
+            and it gave me the foundation to pursue engineering at university."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-author-avatar" aria-hidden="true">👨</div>
+            <div class="testimonial-author-info">
+              <strong>Amine Berrada</strong>
+              <span>Alumni, Class of 2018</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <blockquote>
+            "The arts programme let me discover a passion I never knew I had. The supportive
+            environment at Candide makes every student feel seen and valued."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-author-avatar" aria-hidden="true">👧</div>
+            <div class="testimonial-author-info">
+              <strong>Nour El Houda</strong>
+              <span>Current Grade 11 student</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" aria-label="Contact and enrolment">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you – whether you have a question or want to enrol</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>Our admissions team is available Monday–Friday, 8:00 am – 4:30 pm to answer all your questions.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">📍</div>
+              <div class="contact-item-text">
+                <strong>Address</strong>
+                <span>12 Rue des Écoles, Algiers 16000, Algeria</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">📞</div>
+              <div class="contact-item-text">
+                <strong>Phone</strong>
+                <span>+213 (0)21 123 456</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">✉️</div>
+              <div class="contact-item-text">
+                <strong>Email</strong>
+                <span>contact@candide-school.edu</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">🕐</div>
+              <div class="contact-item-text">
+                <strong>School Hours</strong>
+                <span>Sunday–Thursday, 7:30 am – 3:30 pm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+213 …" />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">Select a subject…</option>
+                <option value="enrolment">Enrolment / Admissions</option>
+                <option value="programs">Academic Programs</option>
+                <option value="events">Events</option>
+                <option value="fees">Fees &amp; Scholarships</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          </form>
+          <p id="formFeedback" role="status" style="margin-top:.8rem;font-size:.9rem;color:#1e8449;display:none;"></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <div class="logo-icon" aria-hidden="true">🎓</div>
+            Candide <span>School</span>
+          </a>
+          <p>Nurturing curious minds and compassionate citizens since 1998. Building the next generation of leaders, innovators, and thinkers.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Twitter / X">𝕏</a>
+            <a href="#" class="social-link" aria-label="Instagram">ig</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#programs">Early Childhood</a></li>
+            <li><a href="#programs">Primary School</a></li>
+            <li><a href="#programs">Middle School</a></li>
+            <li><a href="#programs">Secondary School</a></li>
+            <li><a href="#programs">Arts &amp; Sports</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#contact">Admissions</a></li>
+            <li><a href="#events">Academic Calendar</a></li>
+            <li><a href="#">Parent Portal</a></li>
+            <li><a href="#">Student Handbook</a></li>
+            <li><a href="#">News &amp; Blog</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Candide School. All rights reserved.</p>
+        <p>Designed with ❤️ for education</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
