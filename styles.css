@@ -468,15 +468,15 @@ body {
 }
 
 .btn-outline-white {
-  border: 2px solid rgba(255,255,255,0.85);
-  color: #ffffff;
-  background: rgba(255,255,255,0.10);
+  border: 2px solid rgba(100,180,255,0.85);
+  color: #7dd3fc;
+  background: rgba(100,180,255,0.10);
   backdrop-filter: blur(8px);
 }
 .btn-outline-white:hover {
-  background: rgba(255,255,255,0.22);
-  border-color: #ffffff;
-  color: #ffffff;
+  background: rgba(100,180,255,0.22);
+  border-color: #7dd3fc;
+  color: #7dd3fc;
 }
 
 .hero-levels {
